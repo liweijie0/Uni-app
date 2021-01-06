@@ -1,0 +1,123 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/found/found",
+			"style": {
+				"navigationBarTitleText": "发现"
+			}
+		},
+		{
+			"path": "pages/customized/customized",
+			"style": {
+				"navigationBarTitleText": "定制"
+			}
+		},
+		{
+			"path": "pages/mudedi/mudedi",
+			"style": {
+				"navigationBarTitleText": "目的地"
+			}
+		},
+		{
+			"path": "pages/ME/me",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "comment/detail/detail",
+			"style": {
+			}
+		}
+		// {
+		// 	"path": "pages/tabbar/tabbar-1/tabbar-1",
+		// 	"style": {
+		// 		"navigationBarTitleText": "uni-app"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/tabbar/tabbar-2/tabbar-2",
+		// 	"style": {}
+		// },
+		// {
+		// 	"path": "pages/tabbar/tabbar-3/tabbar-3",
+		// 	"style": {}
+		// },
+		// {
+		// 	"path": "pages/tabbar/tabbar-4/tabbar-4",
+		// 	"style": {}
+		// },
+		// {
+		// 	"path": "pages/tabbar/tabbar-5/tabbar-5",
+		// 	"style": {}
+		// },
+		// {
+		// 	"path": "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
+		// 	"style": {}
+		// },
+		// {
+		// 	"path": "pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video",
+		// 	"style": {}
+		// },
+		// {
+		// 	"path": "pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa",
+		// 	"style": {}
+		// }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"window": {
+	  "backgroundTextStyle": "light",
+	  "navigationBarBackgroundColor": "#fff",
+	  "navigationBarTitleText": "候鸟",
+	  "navigationBarTextStyle": "black"
+	},
+	"style": "v2",
+	"sitemapLocation": "sitemap.json",
+	"tabBar": {
+	  "selectedColor": "#445356",
+	  "list": [
+	    {
+	      "pagePath": "pages/index/index",
+	      "text": "首页",
+	      "iconPath": "./static/images/n-1-a.png",
+	      "selectedIconPath": "./static/images/n-1.png"
+	    },
+	    {
+	      "pagePath": "pages/found/found",
+	      "text": "发现",
+	      "iconPath": "./static/images/n-2-a.png",
+	      "selectedIconPath": "./static/images/n-2.png"
+	    },
+	    {
+	      "pagePath": "pages/customized/customized",
+	      "text": "定制行程",
+	      "iconPath": "./static/images/n-3.png",
+	      "selectedIconPath": "./static/images/n-3.png"
+	    },
+	    {
+	      "pagePath": "pages/mudedi/mudedi",
+	      "text": "目的地",
+	      "iconPath": "./static/images/n-4-a.png",
+	      "selectedIconPath": "./static/images/n-4.png"
+	    },
+	    {
+	      "pagePath": "pages/ME/me",
+	      "text": "我的",
+	      "iconPath": "./static/images/n-5-a.png",
+	      "selectedIconPath": "./static/images/n-5.png"
+	    }
+	  ]
+	}
+}

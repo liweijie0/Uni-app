@@ -1,0 +1,102 @@
+/* pages/mudedi/mudedi.wxss */
+.top{
+  width: 750rpx;
+  text-align: center;
+}
+.top .search{
+  border: 1px solid #ccc;
+  width: 500rpx;
+  border-radius: 30rpx;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  padding-left: 30px;
+  height: 50rpx;
+}
+.ouzhou{
+  padding: 0 16rpx;
+}
+.ouzhou>view{
+  border-bottom:1px dashed #ccc;
+  padding: 20rpx 10rpx;
+}
+.ouzhou>view>text:first-child{
+  margin-right: 20rpx;
+}
+.country{
+  width: 48%;
+  position: relative;
+}
+.country_name{
+  position: absolute;
+  z-index: 5;
+  bottom: 20rpx;
+  color: #fff;
+}
+.country:nth-child(2n+1){
+  margin-right: 4%;
+}
+.crty{
+  display: flex;
+  flex-wrap: wrap;
+}
+.ouzhouhost{
+  font-size: 50rpx;
+}
+.country_name>text:last-child{
+  margin-left: 20rpx;
+}
+.map{
+  height:500rpx;
+  background:#fff;
+  padding: 0 20rpx;
+  position: relative;
+  font-size: 28rpx;
+}
+.map>view{
+  background-size: 100%;
+  position: absolute;
+  text-align: center;
+}
+.map>.ouzhou{
+  width: 375rpx;
+  height: 206.26rpx;
+  background-image: url(https://www.51houniao.com/wx/customer/classic/lib/images/ouzhou.png);
+  left: 20rpx;
+  top: 0;
+}
+.feizhou{
+  width: 152.34rpx;
+  height: 164.06rpx;
+  background-image: url(https://www.51houniao.com/wx/customer/classic/lib/images/feizhou.png);
+  left: 20rpx;
+  top: 176rpx;
+}
+.yazhou{
+  width: 187.5rpx;
+  height: 159.38rpx;
+  background-image: url(https://www.51houniao.com/wx/customer/classic/lib/images/yazhou.png);
+  left: 162rpx;
+  top: 113rpx;
+}
+.beimeizhou{
+  width: 304.68rpx;
+  height: 248.44rpx;
+  background-image: url(https://www.51houniao.com/wx/customer/classic/lib/images/beimei.png);
+  right: 20rpx;
+  top: 0;
+}
+.nanmeizhou{
+  width: 164.06rpx;
+  height: 229.68rpx;
+  background-image: url(https://www.51houniao.com/wx/customer/classic/lib/images/nanmei.png);
+  right: 60rpx;
+  top: 216rpx;
+}
+.dayangzhou{
+  width: 112.5rpx;
+  height: 93.76rpx;
+  background-image: url(https://www.51houniao.com/wx/customer/classic/lib/images/dayangzhou.png);
+  left: 260rpx;
+  top: 280rpx;
+}

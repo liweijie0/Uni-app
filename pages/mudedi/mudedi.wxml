@@ -1,0 +1,25 @@
+<view>
+  <view>
+    <view class="top">
+    <input class="search" placeholder="请输入目的地国家" bindinput="input" type="text" /><text>搜索</text>
+  </view>
+    <view class="map">
+      <view wx:for="{{map}}" wx:key='map' style="line-height:{{item.heigth}};background-position: 0 {{item.top}};" class="{{item.class}}" bindtap="maptab" data-index="{{index}}"><text>{{item.name}}</text></view>
+    </view>
+  </view>
+  <view class="ouzhou">
+    <view>
+      <h2 class="ouzhouhost">{{name}}热门目的的</h2>
+      <view class="crty">
+        <view class="country" wx:for="{{ouzhou.hot_country_list}}" wx:key='country'>
+        <image src="{{item.country_pic_url}}" style="width:100%;height:200rpx"></image>
+        <view class="country_name">{{item.country}}<text>{{item.country_en}}</text></view>
+      </view>
+      </view>
+    </view>
+
+    <view wx:for="{{ouzhou.other_country_list}}" wx:key='key'>
+      <text>{{item.country}}</text><text>{{item.country_en}}</text>
+    </view>
+  </view>
+</view>
